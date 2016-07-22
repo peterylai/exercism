@@ -6,7 +6,7 @@ end
 
 class Year
   def self.leap?(year)
-    year.divisible?(400) || (!year.divisible?(100) && year.divisible?(4))
+    !year.divisible?(100) && year.divisible?(4) || year.divisible?(400) 
   end
 end
 
