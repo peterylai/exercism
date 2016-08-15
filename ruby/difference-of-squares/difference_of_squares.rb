@@ -6,11 +6,11 @@ class Squares
   end
 
   def square_of_sum
-    (num*(num+1))**2 / 4
+    (num * (num + 1))**2 / 4
   end
 
   def sum_of_squares
-    num*(num+1)*(2*num + 1) / 6
+    num * (num + 1) * (2 * num + 1) / 6
   end
 
   def difference
